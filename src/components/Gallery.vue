@@ -1,67 +1,74 @@
 <template>
-  <div id="gallery" class="flex h-screen w-screen flex-col items-center font-roboto">
-    <div class="mt-[20px] flex w-[70%] flex-col items-center gap-4 px-32">
-      <h2 class="mt-20 text-[36px] font-bold leading-tight text-[#333333]">Lorem ipsum dolor</h2>
-      <p class="mb-16 text-center text-[17px] text-[#333333]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
+  <div
+    id="gallery"
+    class="flex w-screen flex-col items-center justify-center font-roboto xs:h-min xs:px-10 sm:px-14 md:h-screen md:px-12 lg:px-24"
+  >
+    <div class="flex flex-col gap-4 md:w-[80%] md:text-center lg:w-[70%]">
+      <h2
+        class="font-bold leading-tight text-[#333333] xs:mt-16 xs:text-[32px] md:mt-0 xl:text-[36px]"
+      >
+        Галлерея
+      </h2>
+      <p class="mb-16 text-[17px] text-[#333333]">
+        Сфера применения нашей продукции частные дома, теплицы, продуктовые магазины, рестораны,
+        фермы, промышленность.
       </p>
     </div>
-    <div class="grid gap-2 px-10 md:grid-cols-2 lg:grid-cols-4">
+    <div class="grid gap-2 sm:grid-cols-2 md:grid-cols-4">
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-6.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-8.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-9.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-6.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-2.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-5.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-12.avif"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-auto lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
       <div class="overflow-hidden">
         <img
-          src="./../assets/images/landscape-2.jpg"
+          src="@/assets/images/irrigation-11.jpg"
           alt="Landscape"
-          class="delay-75 duration-500 hover:scale-110 sm:h-[250px] sm:w-[250px] lg:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
+          class="sm:w-autolg:h-[250px] delay-75 duration-500 hover:scale-110 sm:h-[250px] lg:w-[250px] xl:h-[300px] xl:w-[300px]"
         />
       </div>
     </div>

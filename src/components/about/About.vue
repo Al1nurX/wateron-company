@@ -5,33 +5,36 @@ import Counter from './Counter.vue'
 <template>
   <div
     id="about"
-    class="relative flex h-screen w-screen flex-col justify-center xs:px-16 md:px-16 lg:px-24"
+    class="relative flex w-screen flex-col justify-center xs:h-min xs:px-10 sm:px-14 md:px-16 lg:px-24 xl:h-screen"
   >
     <div
-      class="flex flex-col items-center justify-center gap-14 font-roboto xs:mt-12 md:mt-0 md:flex-row"
+      class="flex flex-col items-center justify-center font-roboto xs:mt-12 md:mt-16 md:flex-row md:gap-10 lg:gap-14 xl:mt-0"
     >
-      <div class="relative w-full md:w-1/2">
+      <div
+        class="relative w-full xs:order-last xs:mt-20 sm:flex sm:justify-center md:order-first md:mt-48 md:block md:w-auto md:justify-normal xl:mt-0"
+      >
         <div
-          class="absolute top-0 z-0 rounded-full bg-primaryColor lg:left-[-50px] lg:h-[300px] lg:w-[300px] xl:left-[-70px] xl:h-[380px] xl:w-[380px]"
+          class="absolute z-0 rounded-full bg-primaryColor sm:left-[-40px] sm:top-[-50px] sm:h-[350px] sm:w-[350px] md:top-[70px] md:h-[330px] md:w-[330px] lg:left-[-50px] lg:top-0 xl:left-[-70px] xl:h-[380px] xl:w-[380px]"
         ></div>
         <img
-          src="@/assets/images/landscape-2.jpg"
+          src="@/assets/images/landscape-13.jpg"
           alt="Landscape"
-          class="w-full rounded-lg drop-shadow-xl md:h-[300px] lg:h-[400px] xl:h-[500px]"
+          class="rounded-lg drop-shadow-xl xs:h-[480px] xs:w-full sm:h-[550px] sm:w-[90%] md:h-[450px] md:w-[400px] lg:h-[500px] lg:w-[500px] xl:h-[550px] xl:w-[500px]"
         />
       </div>
-      <div class="flex w-full flex-col gap-3 md:w-1/2">
+      <div class="flex w-full flex-col gap-3 md:w-3/5">
         <div
-        class="md:absolute md:block md:isolate] md:left-0 md:top-0 md:px-16 lg:px-24 xl:relative xl:px-0 xl:pt-0"
+          class="flex flex-col gap-3 md:absolute md:left-0 md:top-12 md:px-20 md:text-center xl:relative xl:left-0 xl:top-0 xl:p-0 xl:text-left"
         >
-          <h2 class="text-2xl font-bold leading-tight text-gray-800 md:text-4xl">О нас</h2>
+          <h2 class="font-bold leading-tight text-gray-800 xs:text-[32px] lg:text-[36px]">О нас</h2>
           <p class="text-base text-gray-800 md:text-lg">
-            Компания Wateron предлагает инновационные решения для полива пышных ландшафтов. Мы
-            стремимся к совершенству, эффективности и рентабельности, предлагая удобные системы и
-            экспертную поддержку для удовлетворения всех ваших потребностей в поливе.
+            Компания Wateron Irrigation System является компанией полного цикла и занимается
+            проектированием, монтажом, пусконаладкой и техническим обслуживанием систем дождевания,
+            капельного орошения, микроклимата, туманообразования как низкого, так и высокого
+            давлений.
           </p>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 md:mt-36">
           <div class="mt-4 flex items-center gap-3">
             <img
               src="@/assets/images/double-checked.svg"
@@ -75,10 +78,7 @@ import Counter from './Counter.vue'
         </div>
       </div>
     </div>
-    <div
-      id="counters"
-      class="mt-14 grid gap-4 text-center xs:mb-14 xs:grid-cols-2 md:grid-cols-4"
-    >
+    <div id="counters" class="mt-14 grid gap-4 xs:mb-14 xs:grid-cols-2 md:grid-cols-4 xl:mb-0">
       <Counter :target-count="12" :startFrom="0" label="Специалисты" />
       <Counter :target-count="9" :startFrom="0" label="Завершенные проекты" />
       <Counter :target-count="220" :startFrom="300" label="Удовлетворенные клиенты" />

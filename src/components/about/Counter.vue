@@ -68,9 +68,9 @@ onUnmounted(() => {
 
 <template>
   <div class="counters flex flex-col items-center gap-2">
-    <div class="font-georgia text-[50px] font-bold text-secondaryColor">
+    <div class="font-georgia text-[45px] font-bold text-secondaryColor">
       <span>{{ count }}</span>
     </div>
-    <p class="font-roboto text-[15px] text-[#333333]">{{ label }}</p>
+    <p class="text-center font-roboto text-[15px] text-[#333333]">{{ label }}</p>
   </div>
 </template>

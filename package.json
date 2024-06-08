@@ -11,6 +11,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@morev/smooth-scroll": "^2.0.3",
+    "@vueuse/motion": "^2.2.3",
     "flowbite": "^2.3.0",
     "vue": "^3.4.21"
   },
