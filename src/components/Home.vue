@@ -44,7 +44,7 @@ const smoothScrollTo = (target) => {
       <img
         src="@/assets/images/irrigation system.jpg"
         alt="Landscape"
-        class="rounded-lg drop-shadow-xl xs:h-[400px] xs:w-full sm:h-[550px] sm:w-[95%] md:h-[500px] md:w-[600px] lg:h-[580px] lg:w-[500px] xl:h-[630px] xl:w-[550px]"
+        class="rounded-lg drop-shadow-xl xs:h-[400px] xs:w-full sm:h-[550px] sm:w-[95%] md:h-[500px] md:w-[600px] lg:h-[580px] lg:w-[500px] xl:h-[600px] xl:w-[550px]"
       />
     </div>
   </div>
