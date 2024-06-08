@@ -26,7 +26,7 @@ export default {
     <div
       class="relative flex flex-col gap-4 md:items-center xl:top-[-100px] xl:w-[40%] xl:items-start"
     >
-      <span class="font-bold text-[#F9F9F9] xs:text-[32px] xl:text-[36px]">Контактные данные</span>
+      <span class="font-bold text-[#F9F9F9] xs:text-[32px] xl:text-[36px]">Контакты</span>
       <span class="w-[70%] text-[17px] text-[#F9F9F9] md:text-center xl:text-left"
         >Оставьте свои контактные данные и мы свяжемся с вами</span
       >
