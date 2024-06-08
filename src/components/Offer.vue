@@ -30,7 +30,7 @@
           </div>
           <div class="duration-700 ease-in-out" data-carousel-item>
             <img
-              src="@/assets/images/landscape-3.jpg"
+              src="@/assets/images/landscape-6.jpg"
               class="absolute left-1/2 top-1/2 z-0 block w-full -translate-x-1/2 -translate-y-1/2"
               alt="Landscape"
             />

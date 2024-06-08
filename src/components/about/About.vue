@@ -34,7 +34,7 @@ import Counter from './Counter.vue'
             давлений.
           </p>
         </div>
-        <div class="flex flex-col gap-4 md:mt-36">
+        <div class="flex flex-col gap-4 md:mt-36 xl:mt-0">
           <div class="mt-4 flex items-center gap-3">
             <img
               src="@/assets/images/double-checked.svg"
