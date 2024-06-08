@@ -6,7 +6,6 @@
   import Gallery from './components/Gallery.vue'
   import Projects from './components/Projects.vue'
   import Contacts from './components/Contacts.vue'
-  import Footer from './components/Footer.vue'
   import 'flowbite/dist/flowbite.min.css';
   import 'flowbite/dist/flowbite.min.js';
 </script>
@@ -19,5 +18,4 @@
   <Gallery />
   <Projects />
   <Contacts />
-  <Footer />
 </template>
