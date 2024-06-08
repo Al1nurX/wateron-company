@@ -18,9 +18,7 @@
         class="relative w-full xs:my-[-80px] xsm:my-[-50px] sm:my-0 sm:mt-0"
         data-carousel="slide"
       >
-        <div
-          class="relative h-56 overflow-hidden xs:h-[300px] xs:rounded-xl sm:rounded-lg md:h-[400px]"
-        >
+        <div class="relative h-56 overflow-hidden rounded-lg xs:h-[300px] md:h-[400px]">
           <div class="duration-700 ease-in-out" data-carousel-item>
             <img
               src="@/assets/images/landscape-3.jpg"

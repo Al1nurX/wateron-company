@@ -64,11 +64,11 @@ const handleClick = (target) => {
 
 <template>
   <header
-    class="fixed z-[100] flex h-[75px] w-full items-center justify-between border-b bg-[#F9F9F9] px-14 font-roboto"
+    class="fixed z-[100] flex h-[75px] w-full items-center justify-between border-b bg-[#F9F9F9] xs:px-8 sm:px-12 font-roboto"
     :class="{ 'drop-shadow-lg': !menuOpen && !menuTransitioning }"
   >
     <div>
-      <a href="/" @click.prevent="location.reload()"
+      <a href="/"
         ><img src="@/assets/logo.svg" alt="Logo" class="h-auto xs:w-[120px] sm:w-[160px]"
       /></a>
     </div>
