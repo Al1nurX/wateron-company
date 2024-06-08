@@ -24,13 +24,13 @@ export default {
     :style="backgroundImage"
   >
     <div
-      class="relative flex flex-col gap-4 md:items-center xl:top-[-100px] xl:w-[40%] xl:items-start"
+      class="relative flex flex-col gap-4 xs:w-[90%] sm:w-[80%] md:items-center xl:top-[-100px] xl:w-[40%] xl:items-start"
     >
       <span class="font-bold text-[#F9F9F9] xs:text-[32px] xl:text-[36px]">Контакты</span>
-      <span class="w-[70%] text-[17px] text-[#F9F9F9] md:text-center xl:text-left"
+      <span class="w-full text-[17px] text-[#F9F9F9] md:w-[70%] md:text-center xl:text-left"
         >Оставьте свои контактные данные и мы свяжемся с вами</span
       >
-      <div class="mt-8 flex flex-col gap-4">
+      <div class="flex flex-col gap-4 xs:mt-4 xl:mt-8">
         <div class="flex items-center gap-4 md:flex-col xl:flex-row">
           <img
             src="@/assets/images/location.svg"
@@ -65,7 +65,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="relative flex flex-col xs:w-full sm:w-[80%] xl:w-[35%]">
+    <div class="relative flex flex-col xs:w-[90%] sm:w-[80%] xl:w-[35%]">
       <form action="">
         <div class="flex flex-wrap gap-4">
           <div class="flex w-full flex-col gap-3 sm:flex-[0.5]">

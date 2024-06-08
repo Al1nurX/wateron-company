@@ -27,7 +27,7 @@ import Counter from './Counter.vue'
           class="flex flex-col gap-3 md:absolute md:left-0 md:top-12 md:px-20 md:text-center xl:relative xl:left-0 xl:top-0 xl:p-0 xl:text-left"
         >
           <h2 class="font-bold leading-tight text-gray-800 xs:text-[32px] lg:text-[36px]">О нас</h2>
-          <p class="text-base text-gray-800 md:text-lg">
+          <p class="text-[17px] text-gray-800">
             Компания Wateron Irrigation System является компанией полного цикла и занимается
             проектированием, монтажом, пусконаладкой и техническим обслуживанием систем дождевания,
             капельного орошения, микроклимата, туманообразования как низкого, так и высокого

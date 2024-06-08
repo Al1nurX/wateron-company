@@ -5,15 +5,15 @@
   >
     <div class="flex items-center justify-center gap-10 font-roboto xs:flex-col xl:flex-row">
       <div
-        class="relative xs:order-last xs:mb-20 sm:mt-16 md:w-[90%] lg:mb-36 xl:order-first xl:mb-0 xl:w-[40%]"
+        class="relative xs:order-last xs:mb-20 sm:mt-16 md:w-[90%] lg:mb-36 xl:order-first xl:mb-0 xl:mt-0 xl:w-[40%]"
       >
         <div
-          class="absolute z-0 rounded-[50%] bg-primaryColor md:right-[-70px] md:top-[-70px] md:h-[380px] md:w-[380px] lg:h-[400px] lg:w-[400px] xl:left-[-100px] xl:top-[130px] xl:h-[450px] xl:w-[450px]"
+          class="absolute z-0 rounded-[50%] bg-primaryColor md:right-[-70px] md:top-[-70px] md:h-[380px] md:w-[380px] lg:h-[400px] lg:w-[400px] xl:left-[-85px] xl:top-[140px] xl:h-[450px] xl:w-[450px]"
         ></div>
         <img
           src="@/assets/images/landscape-2.jpg"
           alt="Landscape"
-          class="rounded-lg drop-shadow-xl xs:h-auto xs:w-full xl:h-[500px] xl:w-[530px]"
+          class="rounded-lg drop-shadow-xl xs:h-auto xs:w-full xl:h-[530px] xl:w-[530px]"
         />
       </div>
       <div class="relative flex flex-col gap-3 xl:w-[50%]">

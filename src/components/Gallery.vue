@@ -1,7 +1,7 @@
 <template>
   <div
     id="gallery"
-    class="flex w-screen flex-col items-center justify-center font-roboto xs:h-min xs:px-10 sm:px-14 md:h-screen md:px-12 lg:px-24"
+    class="flex w-screen flex-col items-center justify-center font-roboto xs:h-min xs:px-10 sm:px-14 md:h-screen md:px-10 lg:px-24"
   >
     <div class="flex flex-col gap-4 md:w-[80%] md:text-center lg:w-[70%]">
       <h2

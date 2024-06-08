@@ -2,7 +2,7 @@
   import Header from './components/Header.vue'
   import Home from './components/Home.vue'
   import About from './components/about/About.vue'
-  import Offer from './components/Offer.vue'
+  import Offer from './components/offer/Offer.vue'
   import Gallery from './components/Gallery.vue'
   import Projects from './components/Projects.vue'
   import Contacts from './components/Contacts.vue'

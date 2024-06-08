@@ -64,7 +64,7 @@ const handleClick = (target) => {
 
 <template>
   <header
-    class="fixed z-[100] flex h-[75px] w-full items-center justify-between border-b bg-[#F9F9F9] xs:px-8 sm:px-12 font-roboto"
+    class="fixed z-[100] flex h-[75px] w-full items-center justify-between border-b bg-[#F9F9F9] font-roboto xs:px-8 sm:px-12"
     :class="{ 'drop-shadow-lg': !menuOpen && !menuTransitioning }"
   >
     <div>
@@ -139,7 +139,7 @@ const handleClick = (target) => {
   </transition>
 </template>
 
-<style>
+<style scoped>
 .expand-enter-active,
 .expand-leave-active {
   overflow: hidden;

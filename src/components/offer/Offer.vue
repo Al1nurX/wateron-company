@@ -1,3 +1,7 @@
+<script setup>
+import OfferList from './OfferList.vue'
+</script>
+
 <template>
   <div
     id="offer"
@@ -19,21 +23,21 @@
         data-carousel="slide"
       >
         <div class="relative h-56 overflow-hidden rounded-lg xs:h-[300px] md:h-[400px]">
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="duration-800 ease-in-out" data-carousel-item>
             <img
               src="@/assets/images/landscape-3.jpg"
               class="absolute left-1/2 top-1/2 z-0 block w-full -translate-x-1/2 -translate-y-1/2"
               alt="Landscape"
             />
           </div>
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="duration-800 ease-in-out" data-carousel-item>
             <img
               src="@/assets/images/landscape-6.jpg"
               class="absolute left-1/2 top-1/2 z-0 block w-full -translate-x-1/2 -translate-y-1/2"
               alt="Landscape"
             />
           </div>
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="duration-800 ease-in-out" data-carousel-item>
             <img
               src="@/assets/images/landscape-4.jpg"
               class="absolute left-1/2 top-1/2 z-0 block w-full -translate-x-1/2 -translate-y-1/2"
@@ -123,78 +127,36 @@
     <div
       class="mb-24 mt-24 grid w-full xs:grid-cols-1 xs:gap-10 md:grid-cols-2 md:gap-14 xl:grid-cols-3 xl:gap-20"
     >
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Эффективная технология орошения</h4>
-        <p class="text-[17px] text-[#333333]">
-          Наши передовые системы орошения эффективно поливают растения и ландшафт, экономя время и
-          деньги на счетах за воду.
-        </p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Высококачественные продукты</h4>
-        <p class="text-[17px] text-[#333333]">
-          Компания Wateron Irrigation System предлагает высококачественные системы дождевания для
-          газонов, цветников, теплиц и полей.
-        </p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Исключительное обслуживание</h4>
-        <p class="text-[17px] text-[#333333]">
-          Мы предлагаем обслуживание и поддержку для всех наших систем, включая системы низкого и
-          высокого давления.
-        </p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Системы туманообразования</h4>
-        <p class="text-[17px] text-[#333333]">
-          Наши системы туманообразования создают комфортный микроклимат в помещениях и на открытых
-          площадках, будь то кафе, ресторан или производственная площадь.
-        </p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Технологии низкого давления</h4>
-        <p class="text-[17px] text-[#333333]">
-          Наши системы низкого давления подходят для создания микроклимата в любых условиях, включая
-          кафе и рестораны.
-        </p>
-      </div>
-      <div class="flex flex-col gap-3">
-        <img
-          src="@/assets/images/double-checked.svg"
-          alt="Checkmark"
-          class="h-[35px] w-[35px] rounded-[50%] bg-[#F9F9F9] p-[5px] drop-shadow-md"
-        />
-        <h4 class="text-[22px] font-medium text-[#333333]">Технологии высокого давления</h4>
-        <p class="text-[17px] text-[#333333]">
-          Системы высокого давления идеально подходят для охлаждения и пылеподавления, а также для
-          борьбы с запахами.
-        </p>
-      </div>
+      <OfferList
+        heading="Эффективная технология орошения"
+        text="Наши передовые системы орошения эффективно поливают растения и ландшафт, экономя время и
+          деньги на счетах за воду."
+      />
+      <OfferList
+        heading="Высококачественные продукты"
+        text="Компания Wateron Irrigation System предлагает высококачественные системы дождевания для
+          газонов, цветников, теплиц и полей."
+      />
+      <OfferList
+        heading="Исключительное обслуживание"
+        text="Мы предлагаем обслуживание и поддержку для всех наших систем, включая системы низкого и
+          высокого давления."
+      />
+      <OfferList
+        heading="Системы туманообразования"
+        text="Наши системы туманообразования создают комфортный микроклимат в помещениях и на открытых
+          площадках, будь то кафе, ресторан или производственная площадь."
+      />
+      <OfferList
+        heading="Технологии низкого давления"
+        text="Наши системы низкого давления подходят для создания микроклимата в любых условиях, включая
+          кафе и рестораны."
+      />
+      <OfferList
+        heading="Технологии высокого давления"
+        text="Системы высокого давления идеально подходят для охлаждения и пылеподавления, а также для
+          борьбы с запахами."
+      />
     </div>
   </div>
 </template>

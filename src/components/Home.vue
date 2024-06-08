@@ -39,7 +39,7 @@ const smoothScrollTo = (target) => {
     </div>
     <div class="relative w-full xs:mb-16 md:mb-0 md:w-[55%] xl:w-[45%]">
       <div
-        class="absolute top-0 z-0 rounded-[50%] bg-[#F9F9F9] md:right-[-40px] md:h-[300px] md:w-[300px] lg:right-[-70px] lg:h-[380px] lg:w-[380px]"
+        class="absolute top-0 z-0 rounded-[50%] bg-[#F9F9F9] md:right-[-40px] md:h-[300px] md:w-[300px] lg:right-[-60px] lg:h-[380px] lg:w-[380px]"
       ></div>
       <img
         src="@/assets/images/irrigation system.jpg"
